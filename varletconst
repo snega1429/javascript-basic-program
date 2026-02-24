@@ -1,0 +1,74 @@
+//common program for let, var, const
+
+function testScope( ) {
+    if (true) {
+        var a = 10;
+        let b = 20;
+        const c = 30;
+        console.log("Inside block:");
+        console.log(a);
+        console.log(b);
+        console.log(c);
+    }
+    console.log("Outside block:");
+        console.log(a);
+        console.log(b);
+        console.log(c);
+}
+testScope();
+
+//blockScope example using let
+
+function example() {
+    if (true) {
+        let b = 20;
+        console.log(b); 
+    }
+    console.log(b);
+}
+example();
+
+//blockscope example using constant
+
+function example() {
+    if (true) {
+        const c = 30;
+        console.log(c); 
+    }
+    console.log(c); 
+}
+example();
+
+//function scope example using var
+
+function example() {
+    if (true) {
+        var a = 10;
+    }
+
+    console.log(a); 
+}
+example();
+
+
+
+//block scope using let
+
+function blockScopeExample() {
+    if(true) {
+        let message = "Hello"
+        console.log("Inside block:", message);
+    }
+    console.log("Outside block:", message);
+}
+blockScopeExample();
+
+//const object mutuation
+
+const person = {
+    name : "Sandhya",
+    age : 9
+}
+console.log("Before change:", person);
+person.age = 10;
+console.log("After change:", person);
