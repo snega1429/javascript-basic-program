@@ -5,6 +5,7 @@ function greet(name) {
 }
 console.log(greet("Sandhya"));
 
+
 //Arrow function
 const greet = (name) => {
     return "Hello" + name;
