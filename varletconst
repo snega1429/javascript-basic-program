@@ -1,5 +1,4 @@
-//common program for let, var, const
-
+//common program for let, var, const.
 function testScope( ) {
     if (true) {
         var a = 10;
@@ -17,8 +16,8 @@ function testScope( ) {
 }
 testScope();
 
-//blockScope example using let
 
+//blockScope example using let
 function example() {
     if (true) {
         let b = 20;
@@ -28,8 +27,8 @@ function example() {
 }
 example();
 
-//blockscope example using constant
 
+//blockscope example using constant
 function example() {
     if (true) {
         const c = 30;
@@ -39,8 +38,8 @@ function example() {
 }
 example();
 
-//function scope example using var
 
+//function scope example using var
 function example() {
     if (true) {
         var a = 10;
@@ -53,7 +52,6 @@ example();
 
 
 //block scope using let
-
 function blockScopeExample() {
     if(true) {
         let message = "Hello"
@@ -63,8 +61,8 @@ function blockScopeExample() {
 }
 blockScopeExample();
 
-//const object mutuation
 
+//const object mutuation
 const person = {
     name : "Sandhya",
     age : 9
