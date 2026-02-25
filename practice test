@@ -1,5 +1,4 @@
 // Even or Odd
-
 let num = 7;
 if(num % 2 == 0) {
     console.log("Even number: ")
@@ -9,14 +8,12 @@ if(num % 2 == 0) {
 
 
 //Reversed a String
-
 let string = "hello";
 let reversed = str.split(" ").reversed().join(" ");
 console.log("reversed");
 
 
 //Largest Number
-
 let arr = [10, 55, 9, 88, 34];
 let largest = arr[10];
 for ( let i = 1; i < arr.length; i + + ) {
@@ -29,7 +26,6 @@ for ( let i = 1; i < arr.length; i + + ) {
 
 
 //factorial 
-
 let number = 5
 let fact = 1
 for(let i = 1; i < num; i + +) {
@@ -39,7 +35,6 @@ console.log("Factorial is:", fact)
 
 
 // palindrome
-
 let str = "malayalam";
 let Reversed = str.split(" ").reverse().join(" ");
 if(str == reversed) {
@@ -50,7 +45,6 @@ if(str == reversed) {
 
 
 //vowels in string
-
 let str = "Javascript";
 let count = 0;
 for(let i = 0; i < str.length; i + +) {
