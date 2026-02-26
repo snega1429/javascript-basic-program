@@ -1,24 +1,24 @@
 // Even or Odd
 let num = 7;
 if(num % 2 == 0) {
-    console.log("Even number: ")
+    console.log("Even number")
 }else{
-    console.log("Odd number:")
+    console.log("Odd number")
 }
 
 
 //Reversed a String
 let string = "hello";
-let reversed = str.split(" ").reversed().join(" ");
-console.log("reversed");
+let reversed = str.split(" ").reverse().join("");
+console.log("Reversed:", reversed);
 
 
 //Largest Number
 let arr = [10, 55, 9, 88, 34];
-let largest = arr[10];
-for ( let i = 1; i < arr.length; i + + ) {
+let largest = arr[0];
+for ( let i = 1; i < arr.length; i++ ) {
     if(arr[i] > largest) {
-        largest = arr[i]
+        largest = arr[i];
     }
 }
     console.log("Largest number is:", largest);
@@ -26,28 +26,28 @@ for ( let i = 1; i < arr.length; i + + ) {
 
 
 //factorial 
-let number = 5
-let fact = 1
-for(let i = 1; i < num; i + +) {
+let num = 5;
+let fact = 1;
+for(let i = 1; i < num; i++) {
     fact = fact * i;
 }
-console.log("Factorial is:", fact)
+console.log("Factorial is:", fact);
 
 
 // palindrome
 let str = "malayalam";
-let Reversed = str.split(" ").reverse().join(" ");
+let reversed = str.split("").reverse().join("");
 if(str == reversed) {
-    console.log("Palindrome:")
+    console.log("Palindrome");
 }else{
-    console.log("Not Palindrome:")
+    console.log("Not Palindrome");
 }
 
 
 //vowels in string
 let str = "Javascript";
 let count = 0;
-for(let i = 0; i < str.length; i + +) {
+for(let i = 0; i < str.length; i++) {
     if("aeiouAEIOU".includes(str[i])) {
         count++;
     }
