@@ -17,6 +17,8 @@ for ( let i =1; i<= 10; i++ ) {
  let sum = 0;
  while(i<sum) {
     sum = sum + i;
+ while(i <= n) {
+   sum = sum + i;
     i++;
  }
  console.log("sum =", sum);
@@ -26,11 +28,16 @@ for ( let i =1; i<= 10; i++ ) {
  let person = {
     name : "Sandhya",
     age : 9,
+<<<<<<< HEAD:looping program
     city : chennai,
+=======
+    city : "chennai",
  };
- for (let key in person) {
-    console.log(key, ":", person[key]);
- }
+ 
+ for(let key in person) {
+   console.log(key, ":", person[key])
+>>>>>>> 852e538 (Added math.js):loop program
+ };
 
 
  //Iterate over array using for...of
