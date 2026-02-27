@@ -28,15 +28,12 @@ for ( let i =1; i<= 10; i++ ) {
  let person = {
     name : "Sandhya",
     age : 9,
-<<<<<<< HEAD:looping program
     city : chennai,
-=======
     city : "chennai",
  };
  
  for(let key in person) {
    console.log(key, ":", person[key])
->>>>>>> 852e538 (Added math.js):loop program
  };
 
 
